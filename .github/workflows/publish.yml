@@ -38,5 +38,5 @@ jobs:
       - name: Build
         run: dotnet build src/${{ env.PROJECT_PATH }}/${{ env.PROJECT_FILE_NAME }} -c Release
       - name: Publish
-        run: nuget push ${{ github.workspace }}\src\${{ env.PROJECT_PATH }}\bin\Release\Digitalroot.CustomMonoBehaviours.1.0.0.nupkg
+        run: nuget push ${{ github.workspace }}\src\${{ env.PROJECT_PATH }}\bin\Release\Digitalroot.CustomMonoBehaviours.1.0.0.nupkg -SkipDuplicate
 
