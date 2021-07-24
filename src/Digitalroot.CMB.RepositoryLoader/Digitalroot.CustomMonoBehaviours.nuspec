@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Digitalroot.CustomMonoBehaviours</id>
+    <version>1.0.0</version>
+    <title>Digitalroot Valheim Custom MonoBehaviours</title>
+    <authors>Digitalroot</authors>
+    <owners>Digitalroot</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">AGPL-3.0-or-later</license>
+    <icon>ValheimRcon_black.png</icon>
+    <projectUrl>https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours</projectUrl>
+    <description>Custom MonoBehaviours for Valheim</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright © Digitalroot Technologies 2021</copyright>
+    <language>en-US</language>
+    <tags>valheim, digitalroot, CMB, Custom MonoBehaviours</tags>
+    <repository type="git" url="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\bin\Debug\Digitalroot.CMB.RepositoryLoader.dll" target="lib\net462\Digitalroot.CMB.RepositoryLoader.dll" />
+    <file src="..\ico\ValheimRcon_black.png" target="ValheimRcon_black.png" />
+  </files>
+</package>

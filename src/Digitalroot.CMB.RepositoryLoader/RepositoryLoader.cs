@@ -7,12 +7,26 @@ using System.Reflection;
 namespace Digitalroot.CustomMonoBehaviours
 {
   [UsedImplicitly]
-  public static class CustomMonoBehaviourRepositoryLoader
+  public static class RepositoryLoader
   {
     /// <summary>
     /// Unique Collection of Custom Mono Behaviour Repositories
     /// </summary>
     private static readonly HashSet<Assembly> Assemblies = new();
+
+    /// <summary>
+    /// Name of the directory the DLL is in. 
+    /// </summary>
+    private static DirectoryInfo AssemblyDirectory
+    {
+      get
+      {
+        string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+        UriBuilder uri = new UriBuilder(codeBase);
+        var fileInfo = new FileInfo(Uri.UnescapeDataString(uri.Path));
+        return fileInfo.Directory;
+      }
+    }
 
     /// <summary>
     /// Gets a type from a loaded Assembly.
@@ -43,6 +57,7 @@ namespace Digitalroot.CustomMonoBehaviours
     /// Load a Custom Mono Behaviour Repository
     /// </summary>
     /// <param name="pathToAssembly">Path to the assembly.</param>
+    [UsedImplicitly]
     public static void LoadAssembly(string pathToAssembly)
     {
       LoadAssembly(new FileInfo(pathToAssembly));
@@ -57,7 +72,7 @@ namespace Digitalroot.CustomMonoBehaviours
     {
       if (!assemblyFileInfo.Exists)
       {
-        var localPath = Path.Combine(Valheim.Common.Utils.AssemblyDirectory.FullName, assemblyFileInfo.Name);
+        var localPath = Path.Combine(AssemblyDirectory.FullName, assemblyFileInfo.Name);
         if (!File.Exists(localPath))
         {
           throw new FileNotFoundException($"Unable to find {assemblyFileInfo.FullName}{Environment.NewLine} or {localPath}", assemblyFileInfo.FullName);

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Digitalroot Custom MonoBehaviour")]
-[assembly: AssemblyDescription("Custom MonoBehaviour by Digitalroot")]
+[assembly: AssemblyTitle("Digitalroot Custom MonoBehaviour Repository")]
+[assembly: AssemblyDescription("Custom MonoBehaviour Repository by Digitalroot")]
 [assembly: AssemblyConfiguration(AssemblyInfo.Configuration)]
 [assembly: AssemblyCompany(AssemblyInfo.Company)]
-[assembly: AssemblyProduct("Digitalroot Custom MonoBehaviour")]
+[assembly: AssemblyProduct("Digitalroot Custom MonoBehaviour Repository")]
 [assembly: AssemblyCopyright(AssemblyInfo.Copyright)]
 [assembly: AssemblyTrademark(AssemblyInfo.Trademark)]
 [assembly: AssemblyCulture(AssemblyInfo.Culture)]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1f360f0a-c6ee-49b2-b61c-ef1026b9e866")]
+[assembly: Guid("a97cec68-5159-4d18-adaf-43999df28db8")]
 
 // Version information for an assembly consists of the following four values:
 //

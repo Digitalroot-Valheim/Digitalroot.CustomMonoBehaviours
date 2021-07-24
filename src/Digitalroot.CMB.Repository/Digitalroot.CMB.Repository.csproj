@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\ILMerge.Fody.1.16.0\build\ILMerge.Fody.props" Condition="Exists('..\packages\ILMerge.Fody.1.16.0\build\ILMerge.Fody.props')" />
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F360F0A-C6EE-49B2-B61C-EF1026B9E866}</ProjectGuid>
+    <ProjectGuid>{A97CEC68-5159-4D18-ADAF-43999DF28DB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Digitalroot.CustomMonoBehaviours</RootNamespace>
-    <AssemblyName>Digitalroot.CustomMonoBehaviours</AssemblyName>
+    <RootNamespace>Digitalroot.CustomMonoBehaviour</RootNamespace>
+    <AssemblyName>Digitalroot.CMB.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -85,22 +84,6 @@
     </Reference>
     <Reference Include="Digitalroot.Valheim.Common.AssemblyInfo, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Digitalroot.Valheim.Common.AssemblyInfo.1.0.1\lib\net462\Digitalroot.Valheim.Common.AssemblyInfo.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.Json, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.Json.1.0.2\lib\net462\Digitalroot.Valheim.Common.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.Log, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.Log.1.0.3\lib\net462\Digitalroot.Valheim.Common.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.Utils, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.Utils.1.0.2\lib\net462\Digitalroot.Valheim.Common.Utils.dll</HintPath>
-    </Reference>
-    <Reference Include="fastJSON, Version=2.4.0.0, Culture=neutral, PublicKeyToken=6b75a806b86095cd, processorArchitecture=MSIL">
-      <HintPath>..\packages\fastJSON.2.4.0.4\lib\net40\fastJSON.dll</HintPath>
-    </Reference>
-    <Reference Include="ILMerge, Version=1.16.0.0, Culture=neutral, PublicKeyToken=4d0e9a1cbec0d397, processorArchitecture=MSIL">
-      <HintPath>..\packages\ILMerge.Fody.1.16.0\lib\net45\ILMerge.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -357,14 +340,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\GameObjectExtensions.cs" />
-    <Compile Include="CustomMonoBehaviourRepositoryLoader.cs" />
+    <Compile Include="CMB_BrandedCrafter.cs" />
+    <Compile Include="CMB_SpinClockwise.cs" />
+    <Compile Include="CMB_SpinCounterClockwise.cs" />
+    <Compile Include="CMB_UnRemoveable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FodyWeavers.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -372,68 +354,9 @@
     <Analyzer Include="..\packages\ErrorProne.NET.CoreAnalyzers.0.1.2\analyzers\dotnet\cs\ErrorProne.Net.CoreAnalyzers.dll" />
     <Analyzer Include="..\packages\ErrorProne.NET.CoreAnalyzers.0.1.2\analyzers\dotnet\cs\RuntimeContracts.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="FodyWeavers.xml" />
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\ILMerge.Fody.1.16.0\build\ILMerge.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ILMerge.Fody.1.16.0\build\ILMerge.Fody.props'))" />
-    <Error Condition="!Exists('..\packages\Fody.6.5.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.5.2\build\Fody.targets'))" />
-  </Target>
-  <Target Name="BeforeBuild" Condition="'$(Configuration)' == 'Release'">
-    <Message Text="BeforeBuild Called" Importance="high" />
-    <ItemGroup>
-      <BuildFiles Include="$(TargetDir)..\$(ProjectName)\$(ProjectName)\$(ProjectName).dll" />
-    </ItemGroup>
-    <Message Text="@(BuildFiles)" Importance="high" />
-    <Message Text="Deleting files from $(TargetDir)..\$(ProjectName)\$(ProjectName)" Importance="high" />
-    <Delete Files="@(BuildFiles)" />
-  </Target>
-  <Target Name="RefreshVars" AfterTargets="PostBuildEvent" Label="MyRefreshVars">
-    <Message Text="RefreshVars Called" Importance="high" />
-    <ItemGroup>
-      <DigitalrootSourceFiles Include="$(TargetDir)**\*.*" />
-    </ItemGroup>
-    <ItemGroup>
-      <DigitalrootBuildFiles Include="$(TargetDir)..\$(ProjectName)\$(ProjectName)\$(ProjectName).dll" />
-    </ItemGroup>
-  </Target>
-  <Target Name="ScriptEnginePostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'ScriptEngine'" DependsOnTargets="RefreshVars">
-    <Message Text="DebugPostBuild Called" Importance="high" />
-    <Message Text="Copying assemblies to C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\scripts\" Importance="high" />
-    <CallTarget Targets="RefreshVars" />
-    <Copy SourceFiles="@(DigitalrootSourceFiles)" DestinationFiles="@(DigitalrootSourceFiles->'C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\scripts\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
-  </Target>
-  <Target Name="DebugPostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Debug'" DependsOnTargets="RefreshVars">
-    <Message Text="DebugPostBuild Called" Importance="high" />
-    <Message Text="Copying assemblies to C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\$(ProjectName)\" Importance="high" />
-    <CallTarget Targets="RefreshVars" />
-    <Copy SourceFiles="@(DigitalrootSourceFiles)" DestinationFiles="@(DigitalrootSourceFiles->'C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\$(ProjectName)\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
-  </Target>
-  <Target Name="ReleasePostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Release'" DependsOnTargets="RefreshVars">
-    <Message Text="ReleasePostBuild Called" Importance="high" />
-    <CallTarget Targets="RefreshVars" />
-    <MakeDir Directories="$(TargetDir)..\$(ProjectName)\$(ProjectName)" />
-    <Message Text="Deleting files from $(TargetDir)..\$(ProjectName)" Importance="high" />
-    <Delete Files="$(TargetDir)..\$(ProjectName)\**\*.*" />
-    <Message Text="Copying @(DigitalrootSourceFiles) to $(TargetDir)..\$(ProjectName)\$(ProjectName)" Importance="high" />
-    <Copy SourceFiles="@(DigitalrootSourceFiles)" DestinationFiles="@(DigitalrootSourceFiles->'$(TargetDir)..\$(ProjectName)\$(ProjectName)\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" OverwriteReadOnlyFiles="true" />
-    <GetAssemblyIdentity AssemblyFiles="$(TargetDir)$(TargetFileName)">
-      <Output TaskParameter="Assemblies" ItemName="DigitalrootAssemblyIdentities" />
-    </GetAssemblyIdentity>
-    <Message Text="Version = $([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3))" Importance="high" />
-    <Message Text="Deleting $(TargetDir)..\$(ProjectName).v$([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3)).zip" Importance="high" />
-    <Delete Files="$(TargetDir)..\$(ProjectName).v$([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3)).zip" />
-    <Message Text="Creating Zip file $(TargetDir)..\$(ProjectName).v$([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3)).zip" Importance="high" />
-    <ZipDirectory SourceDirectory="$(TargetDir)..\$(ProjectName)" DestinationFile="$(TargetDir)..\$(ProjectName).v$([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3)).zip" />
-  </Target>
-  <Import Project="..\packages\Fody.6.5.2\build\Fody.targets" Condition="Exists('..\packages\Fody.6.5.2\build\Fody.targets')" />
 </Project>
