@@ -21,7 +21,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src=".\bin\Debug\Digitalroot.CMB.RepositoryLoader.dll" target="lib\net462\Digitalroot.CMB.RepositoryLoader.dll" />
+    <file src=".\bin\Release\Digitalroot.CMB.RepositoryLoader.dll" target="lib\net462\Digitalroot.CMB.RepositoryLoader.dll" />
     <file src="..\ico\ValheimRcon_black.png" target="ValheimRcon_black.png" />
   </files>
 </package>
