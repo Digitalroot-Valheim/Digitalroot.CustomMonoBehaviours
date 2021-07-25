@@ -342,7 +342,6 @@
   <ItemGroup>
     <Compile Include="CMB_BrandedCrafter.cs" />
     <Compile Include="CMB_SpinClockwise.cs" />
-    <Compile Include="CMB_SpinCounterClockwise.cs" />
     <Compile Include="CMB_UnRemoveable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

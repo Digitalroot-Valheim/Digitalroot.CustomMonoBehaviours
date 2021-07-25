@@ -50,6 +50,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{3E8193DB-0D6
 		ico\ValheimRcon_color.png = ico\ValheimRcon_color.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CustomMonoBehaviours.Example", "Digitalroot.CustomMonoBehaviours.Example\Digitalroot.CustomMonoBehaviours.Example.csproj", "{073A8EB0-B643-4CEB-954E-D954E043DB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CMB.Repository2", "Digitalroot.CMB.Repository2\Digitalroot.CMB.Repository2.csproj", "{E467F33C-3B00-40D8-8B31-66D98988F49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +68,14 @@ Global
 		{A97CEC68-5159-4D18-ADAF-43999DF28DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97CEC68-5159-4D18-ADAF-43999DF28DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A97CEC68-5159-4D18-ADAF-43999DF28DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073A8EB0-B643-4CEB-954E-D954E043DB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073A8EB0-B643-4CEB-954E-D954E043DB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073A8EB0-B643-4CEB-954E-D954E043DB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073A8EB0-B643-4CEB-954E-D954E043DB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E467F33C-3B00-40D8-8B31-66D98988F49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E467F33C-3B00-40D8-8B31-66D98988F49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E467F33C-3B00-40D8-8B31-66D98988F49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E467F33C-3B00-40D8-8B31-66D98988F49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

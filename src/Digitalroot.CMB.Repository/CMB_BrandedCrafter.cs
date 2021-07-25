@@ -3,7 +3,8 @@ using UnityEngine;
 
 /// <inheritdoc />
 // ReSharper disable once CheckNamespace
-public class BrandedCrafter : MonoBehaviour
+// ReSharper disable once InconsistentNaming
+public class CMB_BrandedCrafter : MonoBehaviour
 {
   [UsedImplicitly]
   public void Awake()

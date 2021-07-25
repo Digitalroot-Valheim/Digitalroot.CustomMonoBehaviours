@@ -343,9 +343,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.2.0" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Digitalroot.CustomMonoBehaviours.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>

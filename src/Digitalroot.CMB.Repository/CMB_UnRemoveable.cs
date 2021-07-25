@@ -3,7 +3,8 @@ using UnityEngine;
 
 /// <inheritdoc />
 // ReSharper disable once CheckNamespace
-public class UnRemoveableCustomMonoBehaviour : MonoBehaviour
+// ReSharper disable once InconsistentNaming
+public class CMB_UnRemoveable : MonoBehaviour
 {
   [UsedImplicitly]
   public void Start()
