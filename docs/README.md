@@ -1,4 +1,4 @@
-[![Build](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml)
+﻿[![Build](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml)
 [![NuGet Package](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml)
 [![Release Drafter](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml)
 
@@ -23,4 +23,6 @@ There are a few choices for installation:
 ## Thanks to 
 - <a href="https://github.com/Digitalroot" target="_blank">Digitalroot</a>
 - <a href="https://github.com/sbtoonz" target="_blank">sbtoonz</a>
-- The <a href="https://discord.gg/GUEBuCuAMz" target="_blank">Valheim Discord</a> community. 
+- The <a href="https://discord.gg/BHbTumqG7U" target="_blank"><b>๖̶̶̶ζ͜͡Odin Plus Team</b> Discord</a> community. 
+- The <a href="https://discord.gg/GUEBuCuAMz" target="_blank">Valheim Discord</a> community.
+
