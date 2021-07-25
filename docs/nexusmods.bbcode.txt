@@ -1,0 +1,66 @@
+﻿[size=3][b][size=4]Summary[/size][/b]
+This is a port of [url=https://www.nexusmods.com/valheim/mods/969]AtosArrows[/url] to [url=https://www.nexusmods.com/valheim/mods/1138]JVL[/url]   
+PR: [url=https://github.com/Atokal/AtosArrows/pull/3]https://github.com/Atokal/AtosArrows/pull/3[/url] 
+Assets belong to [url=https://github.com/Atokal]Atokal[/url] and are used with permission because of:   
+[list]
+[*][size=3]Asset use permission You are allowed to use the assets in this file without permission or crediting me. [url=https://www.nexusmods.com/valheim/mods/969]https://www.nexusmods.com/valheim/mods/969[/url]﻿ (June 12, 2021)[/size]
+[/list][size=3] 
+Original Mod: [url=https://www.nexusmods.com/valheim/mods/969  ]https://www.nexusmods.com/valheim/mods/969[/url] 
+
+[b]Code is a complete rewrite.[/b]
+
+[b][size=4]License[/size][/b]
+Original source has no license.   
+JVL Version is released under: [url=https://github.com/Digitalroot/AtosArrows/blob/main/LICENSE]GNU Affero General Public License v3.0[/url]
+
+[b][size=4]Source[/size][/b]
+[size=3][url=https://github.com/Digitalroot-Valheim/Atokal-AtosArrowsJVL]GitHub[/url][/size]
+
+[b][size=4]Atos Arrows JVL[/size][/b]
+Adds several new arrows into the game. Expands arrow progression for fighting tougher enemies! 
+
+New Items:
+[/size][list]
+[*][size=3]Stone Arrow[/size]
+[*][size=3]Blunted Arrow[/size]
+[*][size=3]Heavy Blunted Arrow[/size]
+[*][size=3]Bone Arrow[/size]
+[*][size=3]Heavy Bone Arrow[/size]
+[*][size=3]Heavy Flint Arrow[/size]
+[*][size=3]Heavy Obsidian Arrow[/size]
+[*][size=3]Heavy Needle Arrow[/size]
+[*][size=3]Obsidian Fire Arrow[/size]
+[*][size=3]Heavy Fire Arrow[/size]
+[*][size=3]Exploding Fire Arrow[/size]
+[*][size=3]Heavy Frost Arrow[/size]
+[*][size=3]Exploding Ice Arrow[/size]
+[*][size=3]Heavy Poison Arrow[/size]
+[*][size=3]Exploding Poison Arrow[/size]
+[*][size=3]Fire Bomb[/size]
+[*][size=3]Ice Bomb[/size]
+[*][size=3]Cross Bow[/size]
+[/list][size=3]
+[b]Dependencies[/b]
+[/size][list]
+[*][size=3][url=https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/]BepInExPack Valheim[/url]﻿[/size]
+[*][size=3][url=https://github.com/Valheim-Modding/Jotunn]Jotunn (JVL)﻿[/url][/size]
+[/list][size=3]
+[b][size=4]Installation (manual)[/size][/b]
+[/size][list=1]
+[*][size=3]Download the latest release archive (zip) file.[/size]
+[*][size=3]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins\AtosArrows[/size]
+[/list][size=3]
+[b]Configuration [/b][/size]
+[/size][list]
+[*][size=3]No need to configure.[/size]
+[/list]
+[b][size=4]Issues/Bugs[/size][/b]
+Go here: [url=https://github.com/Digitalroot-Valheim/Atokal-AtosArrowsJVL/issues]Issues[/url]﻿
+
+[b][size=4]Questions[/size][/b]
+Go here: [url=https://github.com/Digitalroot-Valheim/Atokal-AtosArrowsJVL/discussions]Discussions[/url]
+
+[b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
+
+[b]Thanks to[/b]
+[size=3][url=https://github.com/Atokal]Atokal[/url][/size]

@@ -6,9 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
-		..\example.png = ..\example.png
 		..\LICENSE = ..\LICENSE
-		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E64D67E6-C2B6-471C-990D-2E9A91427B64}"
@@ -26,6 +24,31 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CMB.RepositoryLoader", "Digitalroot.CMB.RepositoryLoader\Digitalroot.CMB.RepositoryLoader.csproj", "{1F360F0A-C6EE-49B2-B61C-EF1026B9E866}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CMB.Repository", "Digitalroot.CMB.Repository\Digitalroot.CMB.Repository.csproj", "{A97CEC68-5159-4D18-ADAF-43999DF28DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{26203D3F-4F5B-4EC0-9C4A-9F298073BE82}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\context.png = ..\docs\context.png
+		..\docs\dlllocation.png = ..\docs\dlllocation.png
+		..\docs\embeddedasset.png = ..\docs\embeddedasset.png
+		..\docs\example.png = ..\docs\example.png
+		..\docs\nexusmods.bbcode.txt = ..\docs\nexusmods.bbcode.txt
+		..\docs\POC.PNG = ..\docs\POC.PNG
+		..\docs\README.md = ..\docs\README.md
+		..\docs\UnityProjSettings.png = ..\docs\UnityProjSettings.png
+		..\docs\VSProjectview.png = ..\docs\VSProjectview.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{3E8193DB-0D64-42C9-BA5B-1B8AA9D91CD5}"
+	ProjectSection(SolutionItems) = preProject
+		ico\icon_greendot.gif = ico\icon_greendot.gif
+		ico\icon_reddot.gif = ico\icon_reddot.gif
+		ico\icon_yellowdot.gif = ico\icon_yellowdot.gif
+		ico\ValheimRcon.xcf = ico\ValheimRcon.xcf
+		ico\ValheimRcon_black.ico = ico\ValheimRcon_black.ico
+		ico\ValheimRcon_black.png = ico\ValheimRcon_black.png
+		ico\ValheimRcon_color.ico = ico\ValheimRcon_color.ico
+		ico\ValheimRcon_color.png = ico\ValheimRcon_color.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +71,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E64D67E6-C2B6-471C-990D-2E9A91427B64} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 		{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2} = {E64D67E6-C2B6-471C-990D-2E9A91427B64}
+		{26203D3F-4F5B-4EC0-9C4A-9F298073BE82} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+		{3E8193DB-0D64-42C9-BA5B-1B8AA9D91CD5} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46DD4389-95C4-4F57-BB16-2A9A816F46B9}

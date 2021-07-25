@@ -1,3 +1,7 @@
+[![Build](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml)
+[![NuGet Package](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml)
+[![Release Drafter](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml/badge.svg)](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml)
+
 # Digitalroot Custom MonoBehaviours (CMB)
 
 This repository is trying to answer the question. How do I get custom `MonoBehaviour`s out of Unity and into Valheim? 
