@@ -10,9 +10,9 @@ This repository is trying to answer the question. How do I get custom `MonoBehav
 :heavy_dollar_sign: Closed-source license is available for commercial or personal use.
 
 ### :warning: WARNING :warning:
-- **Upload permission:** You are not allowed to upload this file to other sites under any circumstances.  
-- **Asset use permission:** You are not allowed to use any of the assets in this file  
-- **Asset use permission in mods/files that are being sold:** You are not allowed to use assets from this file in any mods/files that are being sold, for money, on Steam Workshop or other platforms.  
+- **Upload permission:** You are not allowed to upload any files in this repository to other sites under any circumstances.  
+- **Asset use permission:** You are not allowed to use any of the assets in this repository.  
+- **Asset use permission in mods/files that are being sold:** You are not allowed to use assets from this repository in any mods/files that are being sold, for money, on Steam Workshop or other platforms.  
 
 ### Open Source License
 - Is your code private, closed-source, or proprietary?
