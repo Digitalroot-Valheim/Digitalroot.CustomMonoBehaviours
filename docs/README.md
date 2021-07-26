@@ -9,6 +9,8 @@ This repository is trying to answer the question. How do I get custom `MonoBehav
 ## License
 Closed-source license is available for commercial use.
 
+:exclamation: **Upload permission** You are not allowed to upload this file to other sites under any circumstances.
+:warning:
 ## Documentation
 Check out the [Wiki](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/wiki)
 

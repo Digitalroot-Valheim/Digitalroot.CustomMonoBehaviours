@@ -1,5 +1,4 @@
 ﻿using Digitalroot.CustomMonoBehaviours.Example;
-using Digitalroot.Valheim.Common;
 using ILMerge;
 using System.Reflection;
 using System.Runtime.InteropServices;
@@ -7,16 +6,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle(Main.Namespace)]
+[assembly: AssemblyTitle("Digitalroot.CustomMonoBehaviours.Example")]
 [assembly: AssemblyDescription(Main.Name)]
-[assembly: AssemblyConfiguration(AssemblyInfo.Configuration)]
-[assembly: AssemblyCompany(AssemblyInfo.Company)]
-[assembly: AssemblyProduct(AssemblyInfo.Product)]
-[assembly: AssemblyCopyright(AssemblyInfo.Copyright)]
-[assembly: AssemblyTrademark(AssemblyInfo.Trademark)]
-[assembly: AssemblyCulture(AssemblyInfo.Culture)]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Digitalroot Technologies")]
+[assembly: AssemblyProduct("Digitalroot Custom MonoBehaviours Examples")]
+[assembly: AssemblyCopyright("Copyright © Digitalroot Technologies 2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("en-US")]
 [assembly: ExcludeAssemblies("Repository$")]
-
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from

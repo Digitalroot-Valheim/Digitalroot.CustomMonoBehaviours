@@ -84,19 +84,6 @@
       <HintPath>..\packages\Pfhoenix.Valheim.ModProjectReferences.1.0.6\lib\net46\bepinex.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.AssemblyInfo, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.AssemblyInfo.1.0.1\lib\net462\Digitalroot.Valheim.Common.AssemblyInfo.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.Json, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.Json.1.0.2\lib\net462\Digitalroot.Valheim.Common.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Digitalroot.Valheim.Common.Log, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Digitalroot.Valheim.Common.Log.1.0.3\lib\net462\Digitalroot.Valheim.Common.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="fastJSON, Version=2.4.0.0, Culture=neutral, PublicKeyToken=6b75a806b86095cd, processorArchitecture=MSIL">
-      <HintPath>..\packages\fastJSON.2.4.0.4\lib\net40\fastJSON.dll</HintPath>
-    </Reference>
     <Reference Include="ILMerge, Version=1.16.0.0, Culture=neutral, PublicKeyToken=4d0e9a1cbec0d397, processorArchitecture=MSIL">
       <HintPath>..\packages\ILMerge.Fody.1.16.0\lib\net45\ILMerge.dll</HintPath>
       <Private>False</Private>
