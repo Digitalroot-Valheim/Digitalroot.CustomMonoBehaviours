@@ -26,9 +26,9 @@ This repository is trying to answer the question. How do I get custom `MonoBehav
 - Direct your users to download the DLL from the [nexusmods.com](https://www.nexusmods.com/valheim/mods/1401) page.
 
 #### :man_judge: Exemptions :woman_judge:
-- 1st Exemption: You may [IL Weave](https://michielsioen.be/2017-10-21-il-weaving/) the DLL into your own DLL, if, and only if, you meet the requirements for the [Open Source License](#open-source-license) and you include, in your **ReadMe** file and **Main page** for downloading your code, one of the following statements in clear readable font at 12pt or higher. Take a look at [ILMerge.Fody](https://github.com/tom-englert/ILMerge.Fody) for your IL Weaving needs.
+- 1st Exemption: You may [IL Weave](https://michielsioen.be/2017-10-21-il-weaving/) the DLL into your own DLL, if, and only if, you meet the requirements for the [Open Source License](#open-source-license) and you include, in your **ReadMe** file and **Main page** for downloading your code, one of the following [statements](#statements) in clear readable font at 12pt or higher. Take a look at [ILMerge.Fody](https://github.com/tom-englert/ILMerge.Fody) for your IL Weaving needs.
 
-- 2nd Exemption: You may include the DLL as part of a collection of DLLs aka **Mod Packs**, if, and only if, you meet the requirements for the [Open Source License](#open-source-license) and you include, in your **ReadMe** file and **Main page** for downloading your collection, one of the following statements in clear readable font at 12pt or higher.
+- 2nd Exemption: You may include the DLL as part of a collection of DLLs aka **Mod Packs**, if, and only if, you meet the requirements for the [Open Source License](#open-source-license) and you include, in your **ReadMe** file and **Main page** for downloading your collection, one of the following [statements](#statements) in clear readable font at 12pt or higher.
 
 ###### Statements 
 
