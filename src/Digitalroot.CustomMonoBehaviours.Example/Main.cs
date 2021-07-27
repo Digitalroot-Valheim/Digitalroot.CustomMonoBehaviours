@@ -2,6 +2,7 @@
 using Digitalroot.CustomMonoBehaviours.Extensions;
 using JetBrains.Annotations;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Reflection;
 using UnityEngine;
@@ -54,7 +55,7 @@ namespace Digitalroot.CustomMonoBehaviours.Example
         Debug.Log("Loading Wizard");
         var wizardAssetBundle = Jotunn.Utils.AssetUtils.LoadAssetBundleFromResources("wizard", Assembly.GetExecutingAssembly());
         var wizard = wizardAssetBundle.LoadAsset<GameObject>("Wizard");
-        // wizard.AddMonoBehaviour(CustomMonoBehavioursNames.CMB_SpinClockwise); // Loaded from Digitalroot.CMB.Repository.dll
+        wizard.AddMonoBehaviour(CustomMonoBehavioursNames.CMB_SpinClockwise); // Loaded from Digitalroot.CMB.Repository.dll
         wizard.AddMonoBehaviour(CustomMonoBehavioursNames.CMB_SpinCounterClockwise); // Loaded from Digitalroot.CMB.Repository2.dll
         Jotunn.Managers.PrefabManager.Instance.AddPrefab(wizard);
         wizardAssetBundle.Unload(false);
@@ -64,5 +65,15 @@ namespace Digitalroot.CustomMonoBehaviours.Example
         Jotunn.Logger.LogError(e);
       }
     }
+  }
+
+  [UsedImplicitly]
+  [SuppressMessage("ReSharper", "InconsistentNaming")]
+  public static class CustomMonoBehavioursNames
+  {
+    public static string CMB_BrandedCrafter = nameof(CMB_BrandedCrafter);
+    public static string CMB_SpinClockwise = nameof(CMB_SpinClockwise);
+    public static string CMB_SpinCounterClockwise = nameof(CMB_SpinCounterClockwise);
+    public static string CMB_UnRemoveable = nameof(CMB_UnRemoveable);
   }
 }
