@@ -48,8 +48,8 @@ namespace Digitalroot.CustomMonoBehaviours
     /// Gets a type from a loaded Assembly.
     /// Use LoadAssembly() to load your Custom Mono Behaviour Repositories first.
     /// </summary>
-    /// <param name="name"></param>
-    /// <returns></returns>
+    /// <param name="name">Name of the class.</param>
+    /// <returns>Type of the class name passes.</returns>
     [UsedImplicitly]
     public static Type GetCustomMonoBehaviour(string name)
     {
