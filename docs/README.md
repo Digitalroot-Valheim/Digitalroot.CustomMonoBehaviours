@@ -45,6 +45,27 @@ Text
 Uses Digitalroot's Custom MonoBehaviours - https://tinyurl.com/drcmbs
 ```
 
+## TL:DR Documentation
+
+Tell the `RepositoryLoader` to load your DLL. I put this in `Awake`
+
+```c#
+RepositoryLoader.LoadAssembly("Digitalroot.CMB.Repository.dll");
+```
+
+Later when loading your asset, attach your CMB to the `GameObject`
+
+```c#
+Debug.Log("Loading Wizard");
+var wizardAssetBundle = Jotunn.Utils.AssetUtils.LoadAssetBundleFromResources("wizard", Assembly.GetExecutingAssembly());
+var wizard = wizardAssetBundle.LoadAsset<GameObject>("Wizard");
+wizard.AddMonoBehaviour("CMB_SpinClockwise"); // Loaded from Digitalroot.CMB.Repository.dll
+Jotunn.Managers.PrefabManager.Instance.AddPrefab(wizard);
+wizardAssetBundle.Unload(false);
+```
+
+[Full Example](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/blob/main/src/Digitalroot.CustomMonoBehaviours.Example/Main.cs)
+
 ## Documentation
 Check out the [Wiki](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/wiki)
 
