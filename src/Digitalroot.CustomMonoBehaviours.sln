@@ -17,6 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\builder.yml = ..\.github\workflows\builder.yml
+		..\.github\workflows\docfx.yml = ..\.github\workflows\docfx.yml
 		..\.github\workflows\drafter.yml = ..\.github\workflows\drafter.yml
 		..\.github\workflows\publish.yml = ..\.github\workflows\publish.yml
 	EndProjectSection
@@ -28,18 +29,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{26203D3F-4F5B-4EC0-9C4A-9F298073BE82}"
 	ProjectSection(SolutionItems) = preProject
 		..\docs\_config.yml = ..\docs\_config.yml
-		..\docs\context.png = ..\docs\context.png
-		..\docs\dlllocation.png = ..\docs\dlllocation.png
 		..\docs\docfx.json = ..\docs\docfx.json
-		..\docs\embeddedasset.png = ..\docs\embeddedasset.png
-		..\docs\example.png = ..\docs\example.png
-		..\docs\index.md = ..\docs\index.md
 		..\docs\nexusmods.bbcode.txt = ..\docs\nexusmods.bbcode.txt
-		..\docs\POC.PNG = ..\docs\POC.PNG
 		..\docs\README.md = ..\docs\README.md
 		..\docs\toc.yml = ..\docs\toc.yml
-		..\docs\UnityProjSettings.png = ..\docs\UnityProjSettings.png
-		..\docs\VSProjectview.png = ..\docs\VSProjectview.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{3E8193DB-0D64-42C9-BA5B-1B8AA9D91CD5}"
@@ -57,6 +50,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CustomMonoBehaviours.Example", "Digitalroot.CustomMonoBehaviours.Example\Digitalroot.CustomMonoBehaviours.Example.csproj", "{073A8EB0-B643-4CEB-954E-D954E043DB3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.CMB.Repository2", "Digitalroot.CMB.Repository2\Digitalroot.CMB.Repository2.csproj", "{E467F33C-3B00-40D8-8B31-66D98988F49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{40B75FC9-A2AC-4A3E-BBE4-77A020418EB5}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\images\context.png = ..\docs\images\context.png
+		..\docs\images\dlllocation.png = ..\docs\images\dlllocation.png
+		..\docs\images\embeddedasset.png = ..\docs\images\embeddedasset.png
+		..\docs\images\example.png = ..\docs\images\example.png
+		..\docs\images\POC.PNG = ..\docs\images\POC.PNG
+		..\docs\images\UnityProjSettings.png = ..\docs\images\UnityProjSettings.png
+		..\docs\images\VSProjectview.png = ..\docs\images\VSProjectview.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,7 @@ Global
 		{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2} = {E64D67E6-C2B6-471C-990D-2E9A91427B64}
 		{26203D3F-4F5B-4EC0-9C4A-9F298073BE82} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 		{3E8193DB-0D64-42C9-BA5B-1B8AA9D91CD5} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+		{40B75FC9-A2AC-4A3E-BBE4-77A020418EB5} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46DD4389-95C4-4F57-BB16-2A9A816F46B9}

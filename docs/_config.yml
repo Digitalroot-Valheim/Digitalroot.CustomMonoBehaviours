@@ -1,1 +1,4 @@
 theme: jekyll-theme-hacker
+source: ./src/Digitalroot.CMB.RepositoryLoader
+destination: ./docs/_site
+timezone: America/Los_Angeles
