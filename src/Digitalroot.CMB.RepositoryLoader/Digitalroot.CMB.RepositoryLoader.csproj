@@ -13,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <LangVersion>9</LangVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -344,8 +346,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="api\index.md" />
+    <None Include="articles\intro.md" />
+    <None Include="articles\toc.md" />
     <None Include="Digitalroot.CustomMonoBehaviours.nuspec" />
+    <None Include="docfx.json" />
+    <None Include="index.md" />
     <None Include="packages.config" />
+    <None Include="toc.yml" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="_site\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="_site\manifest.json" />
+    <None Include="_site\search-stopwords.json" />
+    <None Include="_site\xrefmap.yml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\ErrorProne.NET.CoreAnalyzers.0.1.2\analyzers\dotnet\cs\ErrorProne.NET.Core.dll" />
@@ -356,6 +371,30 @@
     <None Include="..\ico\ValheimRcon_black.png" Pack="true" PackagePath="\">
       <Link>ValheimRcon_black.png</Link>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_site\api\Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html" />
+    <Content Include="_site\api\Digitalroot.CustomMonoBehaviours.Extensions.html" />
+    <Content Include="_site\api\Digitalroot.CustomMonoBehaviours.html" />
+    <Content Include="_site\api\Digitalroot.CustomMonoBehaviours.RepositoryLoader.html" />
+    <Content Include="_site\api\index.html" />
+    <Content Include="_site\api\toc.html" />
+    <Content Include="_site\articles\intro.html" />
+    <Content Include="_site\articles\toc.html" />
+    <Content Include="_site\favicon.ico" />
+    <Content Include="_site\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="_site\index.html" />
+    <Content Include="_site\logo.svg" />
+    <Content Include="_site\styles\docfx.css" />
+    <Content Include="_site\styles\docfx.js" />
+    <Content Include="_site\styles\docfx.vendor.css" />
+    <Content Include="_site\styles\docfx.vendor.js" />
+    <Content Include="_site\styles\lunr.js" />
+    <Content Include="_site\styles\lunr.min.js" />
+    <Content Include="_site\styles\main.css" />
+    <Content Include="_site\styles\main.js" />
+    <Content Include="_site\styles\search-worker.js" />
+    <Content Include="_site\toc.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
@@ -403,5 +442,12 @@
     <ZipDirectory SourceDirectory="$(TargetDir)..\$(ProjectName)" DestinationFile="$(TargetDir)..\$(ProjectName).v$([System.Version]::Parse(%(DigitalrootAssemblyIdentities.Version)).ToString(3)).zip" />
     <Message Text="Creating NuGet package" Importance="high" />
     <Exec Command="nuget.exe pack .\Digitalroot.CustomMonoBehaviours.nuspec -OutputDirectory .\\bin\\Release -Build -Properties Configuration=RELEASE" />
+  </Target>
+  <Import Project="..\packages\docfx.console.2.58.0\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.58.0\build\docfx.console.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\docfx.console.2.58.0\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.58.0\build\docfx.console.targets'))" />
   </Target>
 </Project>

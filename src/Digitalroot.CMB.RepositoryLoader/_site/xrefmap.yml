@@ -1,0 +1,103 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Digitalroot.CustomMonoBehaviours
+  name: Digitalroot.CustomMonoBehaviours
+  href: api/Digitalroot.CustomMonoBehaviours.html
+  commentId: N:Digitalroot.CustomMonoBehaviours
+  fullName: Digitalroot.CustomMonoBehaviours
+  nameWithType: Digitalroot.CustomMonoBehaviours
+- uid: Digitalroot.CustomMonoBehaviours.Extensions
+  name: Digitalroot.CustomMonoBehaviours.Extensions
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.html
+  commentId: N:Digitalroot.CustomMonoBehaviours.Extensions
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions
+  nameWithType: Digitalroot.CustomMonoBehaviours.Extensions
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions
+  name: GameObjectExtensions
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html
+  commentId: T:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions
+  nameWithType: GameObjectExtensions
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour(UnityEngine.GameObject,System.String)
+  name: AddMonoBehaviour(GameObject, String)
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_AddMonoBehaviour_UnityEngine_GameObject_System_String_
+  commentId: M:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour(UnityEngine.GameObject,System.String)
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour(UnityEngine.GameObject, System.String)
+  nameWithType: GameObjectExtensions.AddMonoBehaviour(GameObject, String)
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour*
+  name: AddMonoBehaviour
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_AddMonoBehaviour_
+  commentId: Overload:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour
+  isSpec: "True"
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour
+  nameWithType: GameObjectExtensions.AddMonoBehaviour
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour``1(UnityEngine.GameObject)
+  name: AddMonoBehaviour<T>(GameObject)
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_AddMonoBehaviour__1_UnityEngine_GameObject_
+  commentId: M:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour``1(UnityEngine.GameObject)
+  name.vb: AddMonoBehaviour(Of T)(GameObject)
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour<T>(UnityEngine.GameObject)
+  fullName.vb: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.AddMonoBehaviour(Of T)(UnityEngine.GameObject)
+  nameWithType: GameObjectExtensions.AddMonoBehaviour<T>(GameObject)
+  nameWithType.vb: GameObjectExtensions.AddMonoBehaviour(Of T)(GameObject)
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour(UnityEngine.GameObject,System.String)
+  name: GetOrAddMonoBehaviour(GameObject, String)
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_GetOrAddMonoBehaviour_UnityEngine_GameObject_System_String_
+  commentId: M:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour(UnityEngine.GameObject,System.String)
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour(UnityEngine.GameObject, System.String)
+  nameWithType: GameObjectExtensions.GetOrAddMonoBehaviour(GameObject, String)
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour*
+  name: GetOrAddMonoBehaviour
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_GetOrAddMonoBehaviour_
+  commentId: Overload:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour
+  isSpec: "True"
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour
+  nameWithType: GameObjectExtensions.GetOrAddMonoBehaviour
+- uid: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour``1(UnityEngine.GameObject)
+  name: GetOrAddMonoBehaviour<T>(GameObject)
+  href: api/Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.html#Digitalroot_CustomMonoBehaviours_Extensions_GameObjectExtensions_GetOrAddMonoBehaviour__1_UnityEngine_GameObject_
+  commentId: M:Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour``1(UnityEngine.GameObject)
+  name.vb: GetOrAddMonoBehaviour(Of T)(GameObject)
+  fullName: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour<T>(UnityEngine.GameObject)
+  fullName.vb: Digitalroot.CustomMonoBehaviours.Extensions.GameObjectExtensions.GetOrAddMonoBehaviour(Of T)(UnityEngine.GameObject)
+  nameWithType: GameObjectExtensions.GetOrAddMonoBehaviour<T>(GameObject)
+  nameWithType.vb: GameObjectExtensions.GetOrAddMonoBehaviour(Of T)(GameObject)
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader
+  name: RepositoryLoader
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html
+  commentId: T:Digitalroot.CustomMonoBehaviours.RepositoryLoader
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader
+  nameWithType: RepositoryLoader
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour(System.String)
+  name: GetCustomMonoBehaviour(String)
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html#Digitalroot_CustomMonoBehaviours_RepositoryLoader_GetCustomMonoBehaviour_System_String_
+  commentId: M:Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour(System.String)
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour(System.String)
+  nameWithType: RepositoryLoader.GetCustomMonoBehaviour(String)
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour*
+  name: GetCustomMonoBehaviour
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html#Digitalroot_CustomMonoBehaviours_RepositoryLoader_GetCustomMonoBehaviour_
+  commentId: Overload:Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour
+  isSpec: "True"
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader.GetCustomMonoBehaviour
+  nameWithType: RepositoryLoader.GetCustomMonoBehaviour
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.IO.FileInfo)
+  name: LoadAssembly(FileInfo)
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html#Digitalroot_CustomMonoBehaviours_RepositoryLoader_LoadAssembly_System_IO_FileInfo_
+  commentId: M:Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.IO.FileInfo)
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.IO.FileInfo)
+  nameWithType: RepositoryLoader.LoadAssembly(FileInfo)
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.String)
+  name: LoadAssembly(String)
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html#Digitalroot_CustomMonoBehaviours_RepositoryLoader_LoadAssembly_System_String_
+  commentId: M:Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.String)
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly(System.String)
+  nameWithType: RepositoryLoader.LoadAssembly(String)
+- uid: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly*
+  name: LoadAssembly
+  href: api/Digitalroot.CustomMonoBehaviours.RepositoryLoader.html#Digitalroot_CustomMonoBehaviours_RepositoryLoader_LoadAssembly_
+  commentId: Overload:Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly
+  isSpec: "True"
+  fullName: Digitalroot.CustomMonoBehaviours.RepositoryLoader.LoadAssembly
+  nameWithType: RepositoryLoader.LoadAssembly
