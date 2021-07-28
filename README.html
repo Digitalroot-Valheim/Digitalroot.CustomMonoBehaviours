@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Digitalroot's Custom MonoBehaviours (CMB) </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Digitalroot's Custom MonoBehaviours (CMB) ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p><a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml"><img src="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/builder.yml/badge.svg" alt="Build"></a>
+<a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml"><img src="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/publish.yml/badge.svg" alt="NuGet Package"></a>
+<a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml"><img src="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/actions/workflows/drafter.yml/badge.svg" alt="Release Drafter"></a></p>
+<h1 id="digitalroots-custom-monobehaviours-cmb">Digitalroot&#39;s Custom MonoBehaviours (CMB)</h1>
+<p>This repository is trying to answer the question. How do I get custom <code>MonoBehaviour</code>s out of Unity and into Valheim? </p>
+<h2 id="license">License</h2>
+<p><span class="emoji" shortcode="heavy_dollar_sign">💲</span> Closed-source license is available for commercial or personal use.</p>
+<h3 id="warning-warning-warning"><span class="emoji" shortcode="warning">⚠️</span> WARNING <span class="emoji" shortcode="warning">⚠️</span></h3>
+<ul>
+<li><strong>Upload permission:</strong> You are not allowed to upload any files in this repository to other sites under any circumstances.  </li>
+<li><strong>Asset use permission:</strong> You are not allowed to use any of the assets; Unity assets, image files, and icon file, in this repository under any circumstances.    </li>
+</ul>
+<h3 id="open-source-license">Open Source License</h3>
+<ul>
+<li>Is your code private, closed-source, or proprietary?</li>
+<li>Do you charge money to use your code?</li>
+<li>Is your code <strong>not</strong> compatable with <strong>GNU Affero General Public License v3.0</strong>?</li>
+</ul>
+<p><span class="emoji" shortcode="exclamation">❗</span> If you answered <strong>YES</strong> to any of the above, you must acquire a Closed-source license. <span class="emoji" shortcode="exclamation">❗</span></p>
+<p><span class="emoji" shortcode="page_with_curl">📃</span> If you answered <strong>NO</strong> to all the above questions. You may:</p>
+<ul>
+<li>Direct your users to download the DLL from the GitHub <a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/releases">Releases</a> page.</li>
+<li>Direct your users to download the DLL from the <a href="https://www.nexusmods.com/valheim/mods/1401">nexusmods.com</a> page.</li>
+</ul>
+<h4 id="manjudge-exemptions-womanjudge">:man_judge: Exemptions :woman_judge:</h4>
+<ul>
+<li><p>1st Exemption: You may <a href="https://michielsioen.be/2017-10-21-il-weaving/">IL Weave</a> the DLL into your own DLL, if, and only if, you meet the requirements for the <a href="#open-source-license">Open Source License</a> and you include, in your <strong>ReadMe</strong> file and <strong>Main page</strong> for downloading your code, one of the following <a href="#statements">statements</a> in clear readable font at 12pt or higher. Take a look at <a href="https://github.com/tom-englert/ILMerge.Fody">ILMerge.Fody</a> for your IL Weaving needs.</p>
+</li>
+<li><p>2nd Exemption: You may include the DLL as part of a collection of DLLs aka <strong>Mod Packs</strong>, if, and only if, you meet the requirements for the <a href="#open-source-license">Open Source License</a> and you include, in your <strong>ReadMe</strong> file and <strong>Main page</strong> for downloading your collection, one of the following <a href="#statements">statements</a> in clear readable font at 12pt or higher.</p>
+</li>
+</ul>
+<h6 id="statements">Statements</h6>
+<p>HTML  </p>
+<pre><code class="lang-html">Uses &lt;a href=&quot;https://tinyurl.com/drcmbs&quot;&gt;Digitalroot&#39;s Custom MonoBehaviours&lt;/a&gt; 
+</code></pre><p>Markdown  </p>
+<pre><code class="lang-markdown">Uses [Digitalroot&#39;s Custom MonoBehaviours](https://tinyurl.com/drcmbs)
+</code></pre><p>Text  </p>
+<pre><code>Uses Digitalroot&#39;s Custom MonoBehaviours - https://tinyurl.com/drcmbs
+</code></pre><h2 id="tldr-documentation">TL:DR Documentation</h2>
+<p>Tell the <code>RepositoryLoader</code> to load your DLL. I put this in <code>Awake</code></p>
+<pre><code class="lang-c#">RepositoryLoader.LoadAssembly(&quot;Digitalroot.CMB.Repository.dll&quot;);
+</code></pre><p>Later when loading your asset, attach your CMB to the <code>GameObject</code></p>
+<pre><code class="lang-c#">Debug.Log(&quot;Loading Wizard&quot;);
+var wizardAssetBundle = Jotunn.Utils.AssetUtils.LoadAssetBundleFromResources(&quot;wizard&quot;, Assembly.GetExecutingAssembly());
+var wizard = wizardAssetBundle.LoadAsset&lt;GameObject&gt;(&quot;Wizard&quot;);
+wizard.AddMonoBehaviour(&quot;CMB_SpinClockwise&quot;); // Loaded from Digitalroot.CMB.Repository.dll
+Jotunn.Managers.PrefabManager.Instance.AddPrefab(wizard);
+wizardAssetBundle.Unload(false);
+</code></pre><p><a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/blob/main/src/Digitalroot.CustomMonoBehaviours.Example/Main.cs">Full Example</a></p>
+<h2 id="documentation">Documentation</h2>
+<p>Check out the <a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/wiki">Wiki</a></p>
+<h2 id="installation">Installation</h2>
+<p>There are a few choices for installation:</p>
+<ol>
+<li>Install the NuGet package via dotnet cli. <code>dotnet add PROJECT package Digitalroot.CustomMonoBehaviours</code></li>
+<li>Install the NuGet package via Package Manager. <code>PM&gt;</code> <code>Install-Package Digitalroot.CustomMonoBehaviours</code></li>
+<li>For projects that support PackageReference, copy this XML node into the project file to reference the package. <br><code>&lt;PackageReference Include=&quot;Digitalroot.CustomMonoBehaviours&quot; Version=&quot;1.0.*&quot; /&gt;</code></li>
+<li>Download the <a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/packages/912070">NuGet Package</a> from GitHub.</li>
+<li>Download the DLL from the GitHub <a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/releases">Releases</a> page.</li>
+</ol>
+<h2 id="thanks-to">Thanks to</h2>
+<ul>
+<li><a href="https://github.com/Digitalroot" target="_blank">Digitalroot</a></li>
+<li><a href="https://github.com/sbtoonz" target="_blank">sbtoonz</a></li>
+<li>The <a href="https://discord.gg/BHbTumqG7U" target="_blank"><b>๖̶̶̶ζ͜͡Odin Plus Team</b> Discord</a> community. </li>
+<li>The <a href="https://discord.gg/GUEBuCuAMz" target="_blank">Valheim Discord</a> community.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/blob/DocFX/docs/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
