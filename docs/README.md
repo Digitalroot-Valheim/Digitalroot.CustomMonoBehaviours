@@ -82,3 +82,7 @@ There are a few choices for installation:
 - The <a href="https://discord.gg/BHbTumqG7U" target="_blank"><b>๖̶̶̶ζ͜͡Odin Plus Team</b> Discord</a> community. 
 - The <a href="https://discord.gg/GUEBuCuAMz" target="_blank">Valheim Discord</a> community.
 
+<div style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+  <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
+</div>
+
