@@ -82,4 +82,4 @@ There are a few choices for installation:
 - The [๖̶̶̶ζ͜͡Odin Plus Team)](https://discord.gg/BHbTumqG7U) Discord community. 
 - The [Valheim Discord](https://discord.gg/GUEBuCuAMz) community.
 
-![OdinPlus](https://digitalroot.net/img/OdinTeamHighRezNuGet.png)
+![OdinPlus](https://raw.githubusercontent.com/Digitalroot-Valheim/OdinPlusRemakeJVL/Update/img/OdinTeamHighRezNuGet.png)
