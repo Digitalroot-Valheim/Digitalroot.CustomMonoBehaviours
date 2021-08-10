@@ -77,11 +77,9 @@ There are a few choices for installation:
 1. Download the DLL from the GitHub [Releases](https://github.com/Digitalroot-Valheim/Digitalroot.CustomMonoBehaviours/releases) page.
 
 ## Thanks to 
-- <a href="https://github.com/Digitalroot" target="_blank">Digitalroot</a>
-- <a href="https://github.com/sbtoonz" target="_blank">sbtoonz</a>
-- The <a href="https://discord.gg/BHbTumqG7U" target="_blank"><b>๖̶̶̶ζ͜͡Odin Plus Team</b> Discord</a> community. 
-- The <a href="https://discord.gg/GUEBuCuAMz" target="_blank">Valheim Discord</a> community.
+- [Digitalroot](https://github.com/Digitalroot)
+- [sbtoonz](https://github.com/sbtoonz)
+- The [๖̶̶̶ζ͜͡Odin Plus Team)](https://discord.gg/BHbTumqG7U) Discord community. 
+- The [Valheim Discord](https://discord.gg/GUEBuCuAMz) community.
 
-<p align="center">
-  <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
-</p>
+![OdinPlus](https://digitalroot.net/img/OdinTeamHighRezNuGet.png)
